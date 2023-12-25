@@ -115,8 +115,8 @@
                     </p>
 
                     <h2 class="product-price mb-0">
-                        <span class="main-price discounted">$${product.price+15}</span>
-                        <span class="discounted-price"> $${product.price}</span>
+                        <span class="main-price discounted">￥${product.price+15}</span>
+                        <span class="discounted-price"> ￥${product.price}</span>
                     </h2>
 
                     <p class="product-description mb-20">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;所有食品已严格把关，无任何食品安全问题，价格公道，食品美味，
@@ -376,8 +376,8 @@
                                 <i class="fa fa-star"></i>
                             </div>
                             <p class="product-price">
-                                <span class="main-price discounted">$${pf.price+15.1}</span>
-                                <span class="discounted-price">$${pf.price}</span>
+                                <span class="main-price discounted">￥${pf.price+15.1}</span>
+                                <span class="discounted-price">￥${pf.price}</span>
                             </p>
                         </div>
                     </div>

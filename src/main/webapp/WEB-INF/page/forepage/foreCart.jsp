@@ -66,14 +66,14 @@
                                     <a href="single-product.html"><img src="${pageContext.request.contextPath}/${oi.product.imageurl}" class="img-fluid" alt="Product"></a>
                                 </td>
                                 <td class="pro-title"><a href="single-product.html">${oi.product.name}</a></td>
-                                <c:if test="${cst.status==0}"><td class="pro-price"><span>$${oi.product.price}</span></td></c:if>
-                                <c:if test="${cst.status==1}"><td class="pro-price"><span>$${oi.product.price*0.8}</span></td></c:if>
+                                <c:if test="${cst.status==0}"><td class="pro-price"><span>￥${oi.product.price}</span></td></c:if>
+                                <c:if test="${cst.status==1}"><td class="pro-price"><span>￥${oi.product.price*0.8}</span></td></c:if>
                                 <td class="pro-quantity"><div class="pro-qty"><input type="text" id="oiNumber${oi.id}" value="${oi.number}"></div></td>
                                 <c:if test="${cst.status==0}">
-                                    <td class="pro-subtotal"><span id="xiaoji1">$${oi.number*oi.product.price}</span></td>
+                                    <td class="pro-subtotal"><span id="xiaoji1">￥${oi.number*oi.product.price}</span></td>
                                 </c:if>
                                 <c:if test="${cst.status==1}">
-                                    <td class="pro-subtotal"><span id="xiaoji08">$${oi.number*oi.product.price*0.8}</span></td>
+                                    <td class="pro-subtotal"><span id="xiaoji08">￥${oi.number*oi.product.price*0.8}</span></td>
                                 </c:if>
                                 <td class="pro-remove"  id="delOrderItem${oi.id}"><a href="javascript:;" onclick="delOrderItem(${oi.id});"><i class="fa fa-trash-o"></i></a></td>
                             </tr>
@@ -204,7 +204,7 @@
             currentTotaljg = num*p;
             totaljiage += currentTotaljg;
             //更新订单价格
-            $("#OisTotal").text("$"+totaljiage);
+            $("#OisTotal").text("￥"+totaljiage);
             //更新下单的购买数量
             $("#OisNum").text(totalNumb);
             //添加订单项id
@@ -214,7 +214,7 @@
             totalNumb -= num;
             currentTotaljg = num*p;
             totaljiage -= currentTotaljg;
-            $("#OisTotal").text("$"+totaljiage);
+            $("#OisTotal").text("￥"+totaljiage);
             $("#OisNum").text(totalNumb);
             removeByValue(oiids,oiid);//这里突然没有js的remove方法，自定义一个
         }

@@ -14,7 +14,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>校园快捷订餐</title>
+    <title>校园生活</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Favicon -->
@@ -62,7 +62,7 @@
             <div class="row">
                 <div class="col-12 col-lg-6">
                     <div class="header-top-text text-center text-lg-left mb-0 mb-md-15 mb-sm-15">
-                        <p><i class="icon ion-md-alarm"></i> 下单后，15分钟内送达,投诉电话  <span class="support-no">: (012) 800 456 789</span></p>
+                        <p><i class="icon ion-md-alarm"></i> 下单后，15分钟内送达,投诉电话  <span class="support-no">: (086) 400 420 420</span></p>
                     </div>
                 </div>
                 <div class="col-12 col-lg-6">
@@ -163,7 +163,7 @@
                             </div>
                             <div class="content">
                                 <h5>会员折扣</h5>
-                                <p>每个订单超过$ 120.00</p>
+                                <p>每个订单超过￥ 120.00</p>
                             </div>
                         </div>
                         <!--=======  End of single feature  =======-->
@@ -206,7 +206,7 @@
                     <!--=======  sticky logo  =======-->
                     <div class="sticky-logo" style="margin-top: -33px">
                         <a href="/fore/foreIndex">
-                            <img src="${pageContext.request.contextPath}/assets/images/logo.png" class="img-fluid" alt="">
+                            <img src="${pageContext.request.contextPath}/assets/images/logo.png" alt="">
                         </a>
                     </div>
 

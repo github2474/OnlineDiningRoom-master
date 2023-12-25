@@ -102,8 +102,8 @@
                                     <i class="fa fa-star"></i>
                                 </div>
                                 <p class="product-price">
-                                    <span class="main-price discounted">$${p.price+15}</span>
-                                    <span class="discounted-price">$${p.price}</span>
+                                    <span class="main-price discounted">￥${p.price+15}</span>
+                                    <span class="discounted-price">￥${p.price}</span>
                                 </p>
 
                             </div>
@@ -134,8 +134,8 @@
                                 <br/>
                                 <p>${p.miaoshu}</p>
                                 <p class="product-price">
-                                    <span class="main-price discounted">$${p.price+15}</span>
-                                    <span class="discounted-price">$${p.price}</span>
+                                    <span class="main-price discounted">￥${p.price+15}</span>
+                                    <span class="discounted-price">￥${p.price}</span>
                                 </p>
                             </div>
 

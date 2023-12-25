@@ -15,7 +15,10 @@
 
     <style type="text/css">
         *{padding:0px;margin:0px;}
-        body{font-family:Arial, Helvetica, sans-serif;background:url(../../images/grass.jpg);font-size:12px;}
+        body{font-family:Arial, Helvetica, sans-serif;
+            background-size: cover;
+            background: url(../../images/grass.jpg) no-repeat fixed;
+            font-size:12px;}
         img{border:0;}
         .lg{width:468px;height:468px;margin:100px auto;background:url(../../images/login_bg.png) no-repeat;}
         .lg_top{ height:200px;width:468px;}

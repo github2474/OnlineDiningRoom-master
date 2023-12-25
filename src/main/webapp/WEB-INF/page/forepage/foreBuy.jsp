@@ -64,14 +64,14 @@
                                         <a href="single-product.html"><img src="${pageContext.request.contextPath}/${orderItem.product.imageurl}" class="img-fluid" alt="Product"></a>
                                     </td>
                                     <td class="pro-title"><a href="single-product.html">${orderItem.product.name}</a></td>
-                                    <c:if test="${cst.status==0}"><td class="pro-price"><span>$${orderItem.product.price}</span></td></c:if>
-                                    <c:if test="${cst.status==1}"><td class="pro-price"><span>$${orderItem.product.price*0.8}</span></td></c:if>
+                                    <c:if test="${cst.status==0}"><td class="pro-price"><span>￥${orderItem.product.price}</span></td></c:if>
+                                    <c:if test="${cst.status==1}"><td class="pro-price"><span>￥${orderItem.product.price*0.8}</span></td></c:if>
                                     <td class="pro-quantity"><div class="pro-qty"><span>${orderItem.number}</span></div></td>
                                     <c:if test="${cst.status==0}">
-                                        <td class="pro-subtotal"><span id="xiaoji1">$${orderItem.number*orderItem.product.price}</span></td>
+                                        <td class="pro-subtotal"><span id="xiaoji1">￥${orderItem.number*orderItem.product.price}</span></td>
                                     </c:if>
                                     <c:if test="${cst.status==1}">
-                                        <td class="pro-subtotal"><span id="xiaoji08">$${orderItem.number*orderItem.product.price*0.8}</span></td>
+                                        <td class="pro-subtotal"><span id="xiaoji08">￥${orderItem.number*orderItem.product.price*0.8}</span></td>
                                     </c:if>
                                 </tr>
                             </c:forEach>
@@ -145,11 +145,11 @@
 
                                                     <div class="checkout-cart-total">
                                                         <p>数量 <span>${number}</span></p>
-                                                        <p>小计 <span>$${total}</span></p>
+                                                        <p>小计 <span>￥${total}</span></p>
 
-                                                        <p>运费 <span>$10.00</span></p>
+                                                        <p>运费 <span>￥10.00</span></p>
 
-                                                        <h4>总计 <span>$${total+10}</span></h4>
+                                                        <h4>总计 <span>￥${total+10}</span></h4>
 
                                                     </div>
 

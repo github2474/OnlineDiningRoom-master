@@ -147,10 +147,10 @@
                                         </div>
                                         <p class="product-price">
                                             <span class="main-price discounted">
-                                                $<fmt:formatNumber type="number" value="${product.price+15.1}" pattern="0.00" maxFractionDigits="2"/>
+                                                ￥<fmt:formatNumber type="number" value="${product.price+15.1}" pattern="0.00" maxFractionDigits="2"/>
                                             </span>
                                             <span class="discounted-price">
-                                                $<fmt:formatNumber type="number" value="${product.price}" pattern="0.00" maxFractionDigits="2"/>
+                                                ￥<fmt:formatNumber type="number" value="${product.price}" pattern="0.00" maxFractionDigits="2"/>
                                             </span>
                                         </p>
 
@@ -362,9 +362,9 @@
         this_pro_id = id;
         $("#proName").html(name);
         $("#miaoshu").html(miaoshu);
-        $("#proPrice").html('$'+price);
+        $("#proPrice").html('￥'+price);
         var proPrice1 = price +15;
-        $("#proPrice1").html('$'+proPrice1);
+        $("#proPrice1").html('￥'+proPrice1);
         $("#proImg").attr("src",'/'+imageUrl);
     }
 
