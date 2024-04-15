@@ -37,10 +37,10 @@
 
                         <div class="social-links">
                             <ul>
-                                <li><a href="#" class="twitter"  data-tooltip="Twitter"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="#" class="facebook"  data-tooltip="Facebook"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="#" class="weixin"  data-tooltip="Twitter"><i class="fa fa-weixin"></i></a></li>
+                                <li><a href="#" class="qq"  data-tooltip="weibo"><i class="fa fa-qq"></i></a></li>
                                 <li><a href="#" class="behance" data-tooltip="Behance"><i class="fa fa-behance"></i></a></li>
-                                <li><a href="#" class="pinterest" data-tooltip="Pinterest"><i class="fa fa-pinterest"></i></a></li>
+                                <li><a href="#" class="pinterest" data-tooltip="Pinterest"><i class="fa fa-weibo"></i></a></li>
                                 <li><a href="#" class="rss" data-tooltip="RSS"><i class="fa fa-rss"></i></a></li>
                             </ul>
                         </div>

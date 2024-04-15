@@ -325,7 +325,7 @@
                                     <input type="text" value="1" id="nums">
                                 </div>
                                 <div class="add-to-cart-btn">
-                                    <a href="#" id="add_cart" class="fl-btn"><i class="fa fa-shopping-cart"></i> Add to Cart</a>
+                                    <a href="#" id="add_cart" class="fl-btn"><i class="fa fa-shopping-cart"></i> 加入购物车</a>
                                 </div>
                             </div>
 
@@ -333,10 +333,10 @@
                             <div class="social-share-buttons">
                                 <h3>分享</h3>
                                 <ul>
-                                    <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a class="google-plus" href="#"><i class="fa fa-google-plus"></i></a></li>
-                                    <li><a class="pinterest" href="#"><i class="fa fa-pinterest"></i></a></li>
+                                    <li><a class="weixin" href="#"><i class="fa fa-weixin"></i></a></li>
+                                    <li><a class="qq" href="#"><i class="fa fa-qq"></i></a></li>
+                                    <li><a class="weibo" href="#"><i class="fa fa-weibo"></i></a></li>
+                                    <li><a class="fa-share-alt" href="#"><i class="fa fa-share-alt"></i></a></li>
                                 </ul>
                             </div>
                         </div>

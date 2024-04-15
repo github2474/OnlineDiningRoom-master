@@ -258,7 +258,7 @@
 
                     <div class="navigation-search d-none d-lg-block">
                         <form method="post" action="/fore/foreNameLike">
-                            <input type="search" placeholder="Search product ..." name="pName">
+                            <input type="search" placeholder="搜索 ..." name="pName">
                             <button type="submit"><i class="icon ion-md-search"></i></button>
                         </form>
                     </div>

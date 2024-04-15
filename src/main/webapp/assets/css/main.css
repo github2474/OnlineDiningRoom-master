@@ -477,6 +477,7 @@ a.scroll-top {
   font-weight: 500;
   line-height: 30px; }
 
+
 .product-feature-details .social-share-buttons ul {
   margin-bottom: 15px; }
   .product-feature-details .social-share-buttons ul li {
@@ -498,26 +499,26 @@ a.scroll-top {
       @media only screen and (max-width: 767px) {
         .product-feature-details .social-share-buttons ul li a {
           margin-bottom: 5px; } }
-      .product-feature-details .social-share-buttons ul li a i.fa-twitter {
-        color: #1DA1F2; }
-      .product-feature-details .social-share-buttons ul li a i.fa-facebook {
-        color: #4867AA; }
-      .product-feature-details .social-share-buttons ul li a i.fa-google-plus {
-        color: #DD5144; }
-      .product-feature-details .social-share-buttons ul li a i.fa-pinterest {
-        color: #BD081B; }
+      .product-feature-details .social-share-buttons ul li a i.fa-weixin {
+        color: #1aad19; }
+      .product-feature-details .social-share-buttons ul li a i.fa-qq {
+        color: #24a1f1; }
+      .product-feature-details .social-share-buttons ul li a i.fa-share-alt {
+        color: #1f4fdc; }
+      .product-feature-details .social-share-buttons ul li a i.fa-weibo {
+        color: #d52e2d; }
     .product-feature-details .social-share-buttons ul li:hover a {
       color: #fff; }
       .product-feature-details .social-share-buttons ul li:hover a i.fa {
         color: #fff; }
-    .product-feature-details .social-share-buttons ul li:hover a.twitter {
-      background-color: #1DA1F2; }
-    .product-feature-details .social-share-buttons ul li:hover a.facebook {
-      background-color: #4867AA; }
-    .product-feature-details .social-share-buttons ul li:hover a.google-plus {
-      background-color: #DD5144; }
-    .product-feature-details .social-share-buttons ul li:hover a.pinterest {
-      background-color: #BD081B; }
+    .product-feature-details .social-share-buttons ul li:hover a.weixin {
+      background-color: #1aad19; }
+    .product-feature-details .social-share-buttons ul li:hover a.qq {
+      background-color: #24a1f1; }
+    .product-feature-details .social-share-buttons ul li:hover a.share {
+      background-color: #1f4fdc; }
+    .product-feature-details .social-share-buttons ul li:hover a.weibo {
+      background-color: #d52e2d; }
 
 @media only screen and (max-width: 479px) {
   .product-feature-details .pro-qty {
@@ -6645,14 +6646,14 @@ span.required {
     background-color: #ebebeb;
     color: #b2b2b1;
     text-align: center; }
-    .social-links ul li a.twitter:hover i.fa {
-      color: #1DA1F2; }
-    .social-links ul li a.facebook:hover i.fa {
-      color: #4867AA; }
+    .social-links ul li a.weixin:hover i.fa {
+      color: #1aad19; }
+    .social-links ul li a.qq:hover i.fa {
+      color: #24a1f1; }
     .social-links ul li a.behance:hover i.fa {
       color: #1869FF; }
-    .social-links ul li a.pinterest:hover i.fa {
-      color: #BD081B; }
+    .social-links ul li a.fa-share-alt:hover i.fa {
+      color: #1f4fdc; }
     .social-links ul li a.rss:hover i.fa {
       color: #F99C3A; }
     .social-links ul li a i.fa {
