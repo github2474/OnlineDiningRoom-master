@@ -22,7 +22,10 @@
         │               └── controller
         │                   └── OrderControllerTest.java
         └── resources
-            └── logback-test.xml (可选，用于测试期间的日志配置)
+            └── UML c
+                └── 咨询News
+                    └── NewsController.png
+                    └── OrderController.uml
 ```
 **测试套件**
 主单元测试套件位于 src/test/java/com/hxy/OnlineDiningRoom/controller/OrderControllerTest.java 文件中。该文件包含针对 OrderController 类各功能的测试方法：

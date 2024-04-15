@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.hxy.OnlineDiningRoom.controller.NewsController</OriginalElement>
+  <nodes>
+    <node x="154.5" y="967.0">com.hxy.OnlineDiningRoom.controller.NewsControllerTest</node>
+    <node x="6.0" y="-180.5">org.springframework.web.bind.annotation.RequestMapping</node>
+    <node x="-91.0" y="160.0">org.springframework.stereotype.Controller</node>
+    <node x="429.0" y="148.5">com.hxy.OnlineDiningRoom.dao.NewsMapper</node>
+    <node x="244.0" y="487.0">com.hxy.OnlineDiningRoom.service.impl.NewsServiceImpl</node>
+    <node x="273.0" y="-250.5">com.hxy.OnlineDiningRoom.pojo.NewsExample</node>
+    <node x="173.5" y="148.5">com.hxy.OnlineDiningRoom.service.NewsService</node>
+    <node x="541.5" y="360.5">com.hxy.OnlineDiningRoom.pojo.News</node>
+    <node x="-30.5" y="533.0">com.hxy.OnlineDiningRoom.controller.NewsController</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.hxy.OnlineDiningRoom.service.impl.NewsServiceImpl" target="com.hxy.OnlineDiningRoom.service.NewsService" relationship="REALIZATION">
+      <point x="-87.33333333333334" y="-124.0" />
+      <point x="287.66666666666663" y="451.0" />
+      <point x="295.75" y="451.0" />
+      <point x="40.75" y="42.5" />
+    </edge>
+    <edge source="com.hxy.OnlineDiningRoom.controller.NewsControllerTest" target="com.hxy.OnlineDiningRoom.service.NewsService" relationship="TO_ONE">
+      <point x="-60.25" y="-124.0" />
+      <point x="214.75" y="931.0" />
+      <point x="215.0" y="931.0" />
+      <point x="215.0" y="271.0" />
+      <point x="214.25" y="271.0" />
+      <point x="-40.75" y="42.5" />
+    </edge>
+    <edge source="com.hxy.OnlineDiningRoom.service.impl.NewsServiceImpl" target="com.hxy.OnlineDiningRoom.dao.NewsMapper" relationship="TO_ONE">
+      <point x="87.33333333333334" y="-124.0" />
+      <point x="462.33333333333337" y="331.0" />
+      <point x="595.0" y="331.0" />
+      <point x="0.0" y="42.5" />
+    </edge>
+    <edge source="com.hxy.OnlineDiningRoom.controller.NewsController" target="org.springframework.stereotype.Controller" relationship="REALIZATION">
+      <point x="-52.75" y="-78.0" />
+      <point x="22.25" y="511.0" />
+      <point x="15.0" y="511.0" />
+      <point x="15.0" y="251.0" />
+      <point x="-25.0" y="251.0" />
+      <point x="0.0" y="31.0" />
+    </edge>
+    <edge source="com.hxy.OnlineDiningRoom.controller.NewsControllerTest" target="com.hxy.OnlineDiningRoom.controller.NewsController" relationship="TO_ONE">
+      <point x="-60.25" y="-124.0" />
+      <point x="214.75" y="931.0" />
+      <point x="215.0" y="931.0" />
+      <point x="215.0" y="911.0" />
+      <point x="75.0" y="911.0" />
+      <point x="0.0" y="78.0" />
+    </edge>
+    <edge source="com.hxy.OnlineDiningRoom.controller.NewsController" target="com.hxy.OnlineDiningRoom.service.NewsService" relationship="TO_ONE">
+      <point x="52.75" y="-78.0" />
+      <point x="127.75" y="511.0" />
+      <point x="215.0" y="511.0" />
+      <point x="215.0" y="271.0" />
+      <point x="214.25" y="271.0" />
+      <point x="-40.75" y="42.5" />
+    </edge>
+    <edge source="com.hxy.OnlineDiningRoom.controller.NewsControllerTest" target="com.hxy.OnlineDiningRoom.pojo.News" relationship="CREATE">
+      <point x="60.25" y="-124.0" />
+      <point x="335.25" y="931.0" />
+      <point x="655.0" y="931.0" />
+      <point x="0.0" y="250.5" />
+    </edge>
+    <edge source="com.hxy.OnlineDiningRoom.service.impl.NewsServiceImpl" target="com.hxy.OnlineDiningRoom.pojo.NewsExample" relationship="CREATE">
+      <point x="0.0" y="-124.0" />
+      <point x="375.0" y="451.0" />
+      <point x="395.0" y="451.0" />
+      <point x="0.0" y="181.5" />
+    </edge>
+    <edge source="com.hxy.OnlineDiningRoom.controller.NewsController" target="org.springframework.web.bind.annotation.RequestMapping" relationship="REALIZATION">
+      <point x="-52.75" y="-78.0" />
+      <point x="22.25" y="511.0" />
+      <point x="15.0" y="511.0" />
+      <point x="15.0" y="251.0" />
+      <point x="115.0" y="251.0" />
+      <point x="0.0" y="111.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Compact" zoom="0.5930349932705249" showDependencies="true" x="735.6150439716312" y="501.52" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
