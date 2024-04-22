@@ -24,18 +24,20 @@ public class URLPathMatchingFilter extends PathMatchingFilter {
             throws Exception {
         String requestURI = getPathWithinApplication(request);
 
-        System.out.println("requestURI:" + requestURI);
+        System.out.println("请求URI:" + requestURI);
 
         Subject subject = SecurityUtils.getSubject();
         // 如果没有登录，就跳转到登录页面
         if (!subject.isAuthenticated()) {
             WebUtils.issueRedirect(request, response, "/login");
+            System.out.println("结果return：false,输出：\"用户没有登陆，跳转到登录页URI：/login\"");
             return false;
         }
 
         // 看看这个路径权限里有没有维护，如果没有维护，一律放行(也可以改为一律不放行)
         boolean needInterceptor = permissionService.needInterceptor(requestURI); //查看是否有这个url的权限维护 有true 无false
         if (!needInterceptor) {
+            System.out.println("结果return：true,输出：\"没有维护，放行直接访问URI：" + requestURI+"\"");
             return true;
         } else {//有维护
             boolean hasPermission = false;
@@ -50,14 +52,17 @@ public class URLPathMatchingFilter extends PathMatchingFilter {
                 }
             }
 
-            if (hasPermission)
+            if (hasPermission){
+                System.out.println("结果return：true,输出：\"用户有权限，放行访问URI:" + requestURI + "\"");
                 return true;
+            }
             else {
                 UnauthorizedException ex = new UnauthorizedException("当前用户没有访问路径 " + requestURI + " 的权限");
 
                 subject.getSession().setAttribute("ex", ex);
 
                 WebUtils.issueRedirect(request, response, "/unauthorized");
+                System.out.println("结果return：false,输出：\"当前用户没有访问路径，跳转URI:/unauthorized\"");
                 return false;
             }
 
@@ -65,4 +70,3 @@ public class URLPathMatchingFilter extends PathMatchingFilter {
 
     }
 }
-
