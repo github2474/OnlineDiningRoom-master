@@ -65,6 +65,7 @@ public class LoginInterceptorTest {
         // 测试，用户登陆情况下
         boolean result = loginInterceptor.preHandle(request, response, null);
         assertTrue(result);
+        System.out.println("测试用例，用户登陆情况下，URL:"+request.getRequestURL()+"结果返回："+result);
 
         //移除用户
         session.removeAttribute("cst");
@@ -77,6 +78,7 @@ public class LoginInterceptorTest {
         request.setRequestURI("/fore/forebought");
         result = loginInterceptor.preHandle(request, response, null);
         assertFalse(result);
+        System.out.println("测试用例，用户没有登陆情况下，URL:"+request.getRequestURL()+"结果返回："+result);
     }
 
     // Add more tests if necessary
